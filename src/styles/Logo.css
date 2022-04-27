@@ -1,0 +1,7 @@
+.section_logo{
+    width: 65vh;
+    display: flex;
+    justify-content: center;
+    margin: 2vh auto;
+    margin-top: 5vh;
+}

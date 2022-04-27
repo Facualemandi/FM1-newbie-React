@@ -1,0 +1,14 @@
+
+.section_container{
+  width: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section_container p:first-child{
+    font-size: 30px;
+    margin: 1vh;
+}
+

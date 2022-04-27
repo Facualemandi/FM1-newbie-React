@@ -1,0 +1,9 @@
+.ilustration {
+  width: 70vh;
+}
+.ilustration_container {
+  width: 65vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,16 @@
+.redes{
+    width: 65vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.redes span{
+    margin: 0.7vh;
+    padding: 0.7vh;
+    color: rgb(44, 140, 244);
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

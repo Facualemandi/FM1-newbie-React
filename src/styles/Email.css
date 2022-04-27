@@ -1,0 +1,31 @@
+.email_container{
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;   
+}
+
+.email_container input{
+    margin: 2vh;
+    width: 40vh;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+.email_container button{
+    padding: 10px;
+    width: 15vh;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color:  hsl(223, 87%, 63%);
+    font-weight: bold;
+    color: white;
+}
+
+.email_container button:hover{
+    background-color: hsl(223, 100%, 88%);
+    color: rgb(82, 82, 82);
+
+}
