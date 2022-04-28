@@ -7,16 +7,15 @@ const Email = ({ verifyMail, onChangeMail, setOnChangeMail, valido, error}) => {
       setOnChangeMail({...onChangeMail, campo:e.target.value });
     }
    
-     const isTrue = (text) => {
+     const validacionEmail = () => {
        if(valido === 'true'){
-         return( text )
+         return  <p className="valido">Email Correcto!</p>
+       }if(valido === 'false'){
+         return <p className="error">El email igresado no es valido.</p>
        }
+       
      }
-     const isFalse = (text) => {
-       if(error === 'false'){
-         return( text )
-       }
-     }
+
     
 
   return (
@@ -32,8 +31,7 @@ const Email = ({ verifyMail, onChangeMail, setOnChangeMail, valido, error}) => {
         <button onClick={verifyMail}> Notify Me </button>
       </section>
       <section>
-      <p>{isTrue('hola')}</p>
-      <p>{isFalse('hola por 2')}</p>
+      <p>{validacionEmail()}</p>
       </section>
     </>
   );
